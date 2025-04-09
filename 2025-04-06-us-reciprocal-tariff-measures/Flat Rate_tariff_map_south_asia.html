@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f54af283ddf532e74e311444437af45d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+            padding: 10px;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            text-align: left;
+        
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+    <div id="status-legend" style="position: fixed; bottom: 30px; left: 10px; min-width: 140px; 
+                background-color: rgba(255, 255, 255, 0.7); z-index:9999; font-size:14px;
+                border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2); padding: 10px;">
+    <div style="font-weight: bold; margin-bottom: 5px;">Tariff Rate</div>
+    <i style="background:#F9E79F;width:10px;height:10px;display:inline-block;"></i>&nbsp;Flat Rate = 10.00<br>
+    </div>
+    
+    
+        <div style="position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index:9999;
+                    background-color: white; padding: 10px; border: 2px solid grey; border-radius: 5px;
+                    font-size: 16px; font-weight: bold;">
+            South Asia - Flat Rate
+        </div>
+        
+    
+    <style>
+    #custom-controls {
+        position: absolute !important;
+        left: 12px !important;
+        top: 73px !important;
+        z-index: 1000 !important;
+    }
+
+    #custom-controls .leaflet-bar a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        background: #f4f4f4;  
+        border: 1px solid #ccc; 
+        border-radius: 2px;     
+        box-shadow: inset 0 0 0 1px #fff, 0 1px 5px rgba(0,0,0,0.2);
+        text-decoration: none;
+        color: black;
+    }
+    </style>
+
+    <div id="custom-controls">
+        <div class="leaflet-control leaflet-bar">
+            <a href="#" id="legend-toggle" title="Toggle Legends">L</a>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('legend-toggle').addEventListener('click', function(e) {
+            e.preventDefault();
+            var statusLegend = document.getElementById('status-legend');
+            if (statusLegend) {
+                statusLegend.style.display = statusLegend.style.display === 'none' ? 'block' : 'none';
+            }
+
+            var colorScales = document.querySelectorAll('[id^="branca-color-scale-"]');
+            colorScales.forEach(function(legend) {
+                legend.style.display = legend.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+    });
+    </script>
+    
+    <script src="tooltip.js"></script>
+    
+            <div class="folium-map" id="map_f54af283ddf532e74e311444437af45d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f54af283ddf532e74e311444437af45d = L.map(
+                "map_f54af283ddf532e74e311444437af45d",
+                {
+                    center: [20.0, 80.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "maxBounds": [
+[
+-90,
+-180,
+],
+[
+90,
+180,
+],
+],
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+  "worldCopyJump": false,
+  "noWrap": true,
+  "dragging": true,
+  "scrollWheelZoom": true,
+  "doubleClickZoom": true,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65868e80dcafd97734bf239b8db832e2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 2,
+  "maxZoom": 10,
+  "maxNativeZoom": 10,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_65868e80dcafd97734bf239b8db832e2.addTo(map_f54af283ddf532e74e311444437af45d);
+        
+    
+        function geo_json_68ee662e70bffe0f5576c751819c07b5_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "black", "fillColor": "#F9E79F", "fillOpacity": 0.85, "weight": 0.5};
+            }
+        }
+        function geo_json_68ee662e70bffe0f5576c751819c07b5_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "#555", "fillOpacity": 0.95, "weight": 2};
+            }
+        }
+
+        function geo_json_68ee662e70bffe0f5576c751819c07b5_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                            geo_json_68ee662e70bffe0f5576c751819c07b5.resetStyle(e.target);
+                    }
+                },
+                mouseover: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                        const highlightStyle = geo_json_68ee662e70bffe0f5576c751819c07b5_highlighter(e.target.feature)
+                        e.target.setStyle(highlightStyle);
+                    }
+                },
+            });
+        };
+        var geo_json_68ee662e70bffe0f5576c751819c07b5 = L.geoJson(null, {
+                onEachFeature: geo_json_68ee662e70bffe0f5576c751819c07b5_onEachFeature,
+            
+                style: geo_json_68ee662e70bffe0f5576c751819c07b5_styler,
+            ...{
+}
+        });
+
+        function geo_json_68ee662e70bffe0f5576c751819c07b5_add (data) {
+            geo_json_68ee662e70bffe0f5576c751819c07b5
+                .addData(data);
+        }
+            geo_json_68ee662e70bffe0f5576c751819c07b5_add({"bbox": [60.52842980331158, 26.397898057556077, 88.17480431514092, 38.486281643216415], "features": [{"bbox": [80.08842451367627, 26.397898057556077, 88.17480431514092, 30.42271698660863], "geometry": {"coordinates": [[[88.12044070836987, 27.876541652939594], [88.04313276566123, 27.445818589786825], [88.17480431514092, 26.81040517832595], [88.06023766474982, 26.41461538340249], [87.2274719583663, 26.397898057556077], [86.02439293817918, 26.63098460540857], [85.25177859898338, 26.726198431906344], [84.6750179381738, 27.234901231387536], [83.30424889519955, 27.36450572357556], [81.99998742058497, 27.925479234319994], [81.05720258985203, 28.416095282499043], [80.08842451367627, 28.79447011974014], [80.4767212259174, 29.72986522065534], [81.11125613802932, 30.183480943313402], [81.52580447787474, 30.42271698660863], [82.32751264845088, 30.115268052688137], [83.33711510613719, 29.463731594352197], [83.89899295444673, 29.320226141877658], [84.23457970575015, 28.839893703724698], [85.01163821812304, 28.642773952747344], [85.82331994013151, 28.203575954698707], [86.9545170430006, 27.974261786403517], [88.12044070836987, 27.876541652939594]]], "type": "Polygon"}, "id": "101", "properties": {"ABBREV": "Nepal", "ABBREV_LEN": 5, "ADM0_A3": "NPL", "ADM0_A3_AR": "NPL", "ADM0_A3_BD": "NPL", "ADM0_A3_BR": "NPL", "ADM0_A3_CN": "NPL", "ADM0_A3_DE": "NPL", "ADM0_A3_EG": "NPL", "ADM0_A3_ES": "NPL", "ADM0_A3_FR": "NPL", "ADM0_A3_GB": "NPL", "ADM0_A3_GR": "NPL", "ADM0_A3_ID": "NPL", "ADM0_A3_IL": "NPL", "ADM0_A3_IN": "NPL", "ADM0_A3_IT": "NPL", "ADM0_A3_JP": "NPL", "ADM0_A3_KO": "NPL", "ADM0_A3_MA": "NPL", "ADM0_A3_NL": "NPL", "ADM0_A3_NP": "NPL", "ADM0_A3_PK": "NPL", "ADM0_A3_PL": "NPL", "ADM0_A3_PS": "NPL", "ADM0_A3_PT": "NPL", "ADM0_A3_RU": "NPL", "ADM0_A3_SA": "NPL", "ADM0_A3_SE": "NPL", "ADM0_A3_TR": "NPL", "ADM0_A3_TW": "NPL", "ADM0_A3_UA": "NPL", "ADM0_A3_UN": -99, "ADM0_A3_US": "NPL", "ADM0_A3_VN": "NPL", "ADM0_A3_WB": -99, "ADM0_DIF": 0, "ADM0_DIFF": null, "ADM0_ISO": "NPL", "ADM0_TLC": "NPL", "ADMIN": "Nepal", "Aggregation": "South Asia", "BRK_A3": "NPL", "BRK_DIFF": 0, "BRK_GROUP": null, "BRK_NAME": "Nepal", "CONTINENT": "Asia", "Country": "Nepal", "ECONOMY": "7. Least developed region", "FCLASS_AR": null, "FCLASS_BD": null, "FCLASS_BR": null, "FCLASS_CN": null, "FCLASS_DE": null, "FCLASS_EG": null, "FCLASS_ES": null, "FCLASS_FR": null, "FCLASS_GB": null, "FCLASS_GR": null, "FCLASS_ID": null, "FCLASS_IL": null, "FCLASS_IN": null, "FCLASS_ISO": "Admin-0 country", "FCLASS_IT": null, "FCLASS_JP": null, "FCLASS_KO": null, "FCLASS_MA": null, "FCLASS_NL": null, "FCLASS_NP": null, "FCLASS_PK": null, "FCLASS_PL": null, "FCLASS_PS": null, "FCLASS_PT": null, "FCLASS_RU": null, "FCLASS_SA": null, "FCLASS_SE": null, "FCLASS_TLC": "Admin-0 country", "FCLASS_TR": null, "FCLASS_TW": null, "FCLASS_UA": null, "FCLASS_US": null, "FCLASS_VN": null, "FIPS_10": "NP", "FORMAL_EN": "Nepal", "FORMAL_FR": null, "GDP_MD": 30641, "GDP_YEAR": 2019, "GEOUNIT": "Nepal", "GEOU_DIF": 0, "GU_A3": "NPL", "HOMEPART": 1, "INCOME_GRP": "5. Low income", "ISO": "NPL", "ISO_A2": "NP", "ISO_A2_EH": "NP", "ISO_A3": "NPL", "ISO_A3_EH": "NPL", "ISO_N3": "524", "ISO_N3_EH": "524", "LABELRANK": 3, "LABEL_X": 83.639914, "LABEL_Y": 28.297925, "LEVEL": 2, "LONG_LEN": 5, "MAPCOLOR13": 12, "MAPCOLOR7": 2, "MAPCOLOR8": 2, "MAPCOLOR9": 3, "MAX_LABEL": 8.0, "MIN_LABEL": 3.0, "MIN_ZOOM": 0.0, "NAME": "Nepal", "NAME_ALT": null, "NAME_AR": "\u0646\u064a\u0628\u0627\u0644", "NAME_BN": "\u09a8\u09c7\u09aa\u09be\u09b2", "NAME_CIAWF": "Nepal", "NAME_DE": "Nepal", "NAME_EL": "\u039d\u03b5\u03c0\u03ac\u03bb", "NAME_EN": "Nepal", "NAME_ES": "Nepal", "NAME_FA": "\u0646\u067e\u0627\u0644", "NAME_FR": "N\u00e9pal", "NAME_HE": "\u05e0\u05e4\u05d0\u05dc", "NAME_HI": "\u0928\u0947\u092a\u093e\u0932", "NAME_HU": "Nep\u00e1l", "NAME_ID": "Nepal", "NAME_IT": "Nepal", "NAME_JA": "\u30cd\u30d1\u30fc\u30eb", "NAME_KO": "\ub124\ud314", "NAME_LEN": 5, "NAME_LONG": "Nepal", "NAME_NL": "Nepal", "NAME_PL": "Nepal", "NAME_PT": "Nepal", "NAME_RU": "\u041d\u0435\u043f\u0430\u043b", "NAME_SORT": "Nepal", "NAME_SV": "Nepal", "NAME_TR": "Nepal", "NAME_UK": "\u041d\u0435\u043f\u0430\u043b", "NAME_UR": "\u0646\u06cc\u067e\u0627\u0644", "NAME_VI": "Nepal", "NAME_ZH": "\u5c3c\u6cca\u5c14", "NAME_ZHT": "\u5c3c\u6cca\u723e", "NE_ID": 1159321121, "NOTE_ADM0": null, "NOTE_BRK": null, "Note": null, "POP_EST": 28608710.0, "POP_RANK": 15, "POP_YEAR": 2019, "POSTAL": "NP", "REGION_UN": "Asia", "REGION_WB": "South Asia", "Reciprocal Tariff (%)": 10.0, "SOVEREIGNT": "Nepal", "SOV_A3": "NPL", "SUBREGION": "Southern Asia", "SUBUNIT": "Nepal", "SU_A3": "NPL", "SU_DIF": 0, "TINY": -99, "TLC": "1", "TLC_DIFF": null, "TYPE": "Sovereign country", "Tariff_Status": "Flat Rate", "Total Trade (billion USD)": 0.24, "Trade Balance (billion USD)": 0.0, "U.S. Export Share (%)": 0.0058, "U.S. Import Share (%)": 0.0037, "UN_A3": "524", "WB_A2": "NP", "WB_A3": "NPL", "WIKIDATAID": "Q837", "WOE_ID": 23424911, "WOE_ID_EH": 23424911, "WOE_NOTE": "Exact WOE match as country", "featurecla": "Admin-0 country", "fill_color": "#F9E79F", "scalerank": 1}, "type": "Feature"}, {"bbox": [60.52842980331158, 29.31857249604431, 75.15802778514092, 38.486281643216415], "geometry": {"coordinates": [[[66.51860680528867, 37.36278432875879], [67.07578209825962, 37.35614390720929], [67.82999962755952, 37.144994004864685], [68.13556237170138, 37.02311513930431], [68.85944583524594, 37.344335842430596], [69.19627282092438, 37.15114350030743], [69.51878543485796, 37.60899669041342], [70.11657840361033, 37.58822276463209], [70.27057417184014, 37.735164699854025], [70.3763041523093, 38.13839590102752], [70.80682050973289, 38.486281643216415], [71.34813113799026, 38.25890534113216], [71.23940392444817, 37.953265082341886], [71.54191775908478, 37.905774441065645], [71.44869347523024, 37.06564484308052], [71.8446382994506, 36.73817129164692], [72.1930408059624, 36.948287665345674], [72.63688968291729, 37.047558091778356], [73.26005577992501, 37.495256862939], [73.9486959166465, 37.4215662704908], [74.98000247589542, 37.419990139305895], [75.15802778514092, 37.13303091078912], [74.57589277537298, 37.02084137628346], [74.06755171091783, 36.83617564548845], [72.92002485544447, 36.72000702569632], [71.84629194528392, 36.50994232842986], [71.26234826038575, 36.074387518857804], [71.49876793812109, 35.650563259416], [71.61307620635071, 35.153203436822864], [71.11501875192164, 34.733125718722235], [71.15677330921346, 34.34891144463215], [70.8818030129884, 33.98885590263852], [69.9305432473596, 34.02012014417511], [70.3235941913716, 33.35853261975839], [69.68714725126486, 33.105498969041236], [69.26252200712256, 32.5019440780883], [69.31776411324256, 31.901412258424443], [68.92667687365767, 31.620189113892067], [68.55693200060932, 31.713310044882018], [67.79268924344478, 31.58293040620963], [67.68339358914747, 31.30315420178142], [66.93889122911847, 31.304911200479353], [66.38145755398602, 30.738899237586452], [66.34647260932442, 29.887943427036177], [65.0468620136161, 29.472180691031905], [64.35041873561852, 29.560030625928093], [64.14800215033125, 29.340819200145972], [63.55026085801117, 29.468330796826166], [62.54985680527278, 29.31857249604431], [60.87424848820879, 29.829238999952608], [61.781221551363444, 30.735850328081238], [61.69931440618083, 31.379506130492672], [60.94194461451113, 31.548074652628753], [60.863654819588966, 32.18291962333443], [60.536077915290775, 32.98126882581157], [60.963700392506006, 33.52883230237626], [60.52842980331158, 33.676446031218006], [60.80319339380745, 34.40410187431986], [61.210817091725744, 35.650072333309225], [62.230651483005886, 35.270663967422294], [62.98466230657661, 35.40404083916762], [63.19353844590035, 35.857165635718914], [63.98289594915871, 36.0079574651466], [64.5464791197339, 36.31207326918427], [64.7461051776774, 37.111817735333304], [65.58894778835784, 37.30521678318564], [65.74563073106683, 37.66116404881207], [66.21738488145934, 37.39379018813392], [66.51860680528867, 37.36278432875879]]], "type": "Polygon"}, "id": "103", "properties": {"ABBREV": "Afg.", "ABBREV_LEN": 4, "ADM0_A3": "AFG", "ADM0_A3_AR": "AFG", "ADM0_A3_BD": "AFG", "ADM0_A3_BR": "AFG", "ADM0_A3_CN": "AFG", "ADM0_A3_DE": "AFG", "ADM0_A3_EG": "AFG", "ADM0_A3_ES": "AFG", "ADM0_A3_FR": "AFG", "ADM0_A3_GB": "AFG", "ADM0_A3_GR": "AFG", "ADM0_A3_ID": "AFG", "ADM0_A3_IL": "AFG", "ADM0_A3_IN": "AFG", "ADM0_A3_IT": "AFG", "ADM0_A3_JP": "AFG", "ADM0_A3_KO": "AFG", "ADM0_A3_MA": "AFG", "ADM0_A3_NL": "AFG", "ADM0_A3_NP": "AFG", "ADM0_A3_PK": "AFG", "ADM0_A3_PL": "AFG", "ADM0_A3_PS": "AFG", "ADM0_A3_PT": "AFG", "ADM0_A3_RU": "AFG", "ADM0_A3_SA": "AFG", "ADM0_A3_SE": "AFG", "ADM0_A3_TR": "AFG", "ADM0_A3_TW": "AFG", "ADM0_A3_UA": "AFG", "ADM0_A3_UN": -99, "ADM0_A3_US": "AFG", "ADM0_A3_VN": "AFG", "ADM0_A3_WB": -99, "ADM0_DIF": 0, "ADM0_DIFF": null, "ADM0_ISO": "AFG", "ADM0_TLC": "AFG", "ADMIN": "Afghanistan", "Aggregation": "South Asia", "BRK_A3": "AFG", "BRK_DIFF": 0, "BRK_GROUP": null, "BRK_NAME": "Afghanistan", "CONTINENT": "Asia", "Country": "Afghanistan", "ECONOMY": "7. Least developed region", "FCLASS_AR": null, "FCLASS_BD": null, "FCLASS_BR": null, "FCLASS_CN": null, "FCLASS_DE": null, "FCLASS_EG": null, "FCLASS_ES": null, "FCLASS_FR": null, "FCLASS_GB": null, "FCLASS_GR": null, "FCLASS_ID": null, "FCLASS_IL": null, "FCLASS_IN": null, "FCLASS_ISO": "Admin-0 country", "FCLASS_IT": null, "FCLASS_JP": null, "FCLASS_KO": null, "FCLASS_MA": null, "FCLASS_NL": null, "FCLASS_NP": null, "FCLASS_PK": null, "FCLASS_PL": null, "FCLASS_PS": null, "FCLASS_PT": null, "FCLASS_RU": null, "FCLASS_SA": null, "FCLASS_SE": null, "FCLASS_TLC": "Admin-0 country", "FCLASS_TR": null, "FCLASS_TW": null, "FCLASS_UA": null, "FCLASS_US": null, "FCLASS_VN": null, "FIPS_10": "AF", "FORMAL_EN": "Islamic State of Afghanistan", "FORMAL_FR": null, "GDP_MD": 19291, "GDP_YEAR": 2019, "GEOUNIT": "Afghanistan", "GEOU_DIF": 0, "GU_A3": "AFG", "HOMEPART": 1, "INCOME_GRP": "5. Low income", "ISO": "AFG", "ISO_A2": "AF", "ISO_A2_EH": "AF", "ISO_A3": "AFG", "ISO_A3_EH": "AFG", "ISO_N3": "004", "ISO_N3_EH": "004", "LABELRANK": 3, "LABEL_X": 66.496586, "LABEL_Y": 34.164262, "LEVEL": 2, "LONG_LEN": 11, "MAPCOLOR13": 7, "MAPCOLOR7": 5, "MAPCOLOR8": 6, "MAPCOLOR9": 8, "MAX_LABEL": 7.0, "MIN_LABEL": 3.0, "MIN_ZOOM": 0.0, "NAME": "Afghanistan", "NAME_ALT": null, "NAME_AR": "\u0623\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646", "NAME_BN": "\u0986\u09ab\u0997\u09be\u09a8\u09bf\u09b8\u09cd\u09a4\u09be\u09a8", "NAME_CIAWF": "Afghanistan", "NAME_DE": "Afghanistan", "NAME_EL": "\u0391\u03c6\u03b3\u03b1\u03bd\u03b9\u03c3\u03c4\u03ac\u03bd", "NAME_EN": "Afghanistan", "NAME_ES": "Afganist\u00e1n", "NAME_FA": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646", "NAME_FR": "Afghanistan", "NAME_HE": "\u05d0\u05e4\u05d2\u05e0\u05d9\u05e1\u05d8\u05df", "NAME_HI": "\u0905\u092b\u093c\u094d\u0917\u093e\u0928\u093f\u0938\u094d\u0924\u093e\u0928", "NAME_HU": "Afganiszt\u00e1n", "NAME_ID": "Afganistan", "NAME_IT": "Afghanistan", "NAME_JA": "\u30a2\u30d5\u30ac\u30cb\u30b9\u30bf\u30f3", "NAME_KO": "\uc544\ud504\uac00\ub2c8\uc2a4\ud0c4", "NAME_LEN": 11, "NAME_LONG": "Afghanistan", "NAME_NL": "Afghanistan", "NAME_PL": "Afganistan", "NAME_PT": "Afeganist\u00e3o", "NAME_RU": "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d", "NAME_SORT": "Afghanistan", "NAME_SV": "Afghanistan", "NAME_TR": "Afganistan", "NAME_UK": "\u0410\u0444\u0433\u0430\u043d\u0456\u0441\u0442\u0430\u043d", "NAME_UR": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646", "NAME_VI": "Afghanistan", "NAME_ZH": "\u963f\u5bcc\u6c57", "NAME_ZHT": "\u963f\u5bcc\u6c57", "NE_ID": 1159320319, "NOTE_ADM0": null, "NOTE_BRK": null, "Note": null, "POP_EST": 38041754.0, "POP_RANK": 15, "POP_YEAR": 2019, "POSTAL": "AF", "REGION_UN": "Asia", "REGION_WB": "South Asia", "Reciprocal Tariff (%)": 10.0, "SOVEREIGNT": "Afghanistan", "SOV_A3": "AFG", "SUBREGION": "Southern Asia", "SUBUNIT": "Afghanistan", "SU_A3": "AFG", "SU_DIF": 0, "TINY": -99, "TLC": "1", "TLC_DIFF": null, "TYPE": "Sovereign country", "Tariff_Status": "Flat Rate", "Total Trade (billion USD)": 0.03, "Trade Balance (billion USD)": -0.01, "U.S. Export Share (%)": 0.0005, "U.S. Import Share (%)": 0.0006, "UN_A3": "004", "WB_A2": "AF", "WB_A3": "AFG", "WIKIDATAID": "Q889", "WOE_ID": 23424739, "WOE_ID_EH": 23424739, "WOE_NOTE": "Exact WOE match as country", "featurecla": "Admin-0 country", "fill_color": "#F9E79F", "scalerank": 1}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_68ee662e70bffe0f5576c751819c07b5.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["ADMIN", "Reciprocal Tariff (%)", "Tariff_Status", "U.S. Import Share (%)", "U.S. Export Share (%)", "Total Trade (billion USD)", "Trade Balance (billion USD)", "Note"];
+    let aliases = ["Country:", "Tariff:", "Status:", "U.S. Import Share:", "U.S. Export Share:", "Total Trade:", "Trade Balance:", "Note:"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{
+  "sticky": true,
+  "className": "foliumtooltip",
+});
+                     
+    
+            geo_json_68ee662e70bffe0f5576c751819c07b5.addTo(map_f54af283ddf532e74e311444437af45d);
+        
+</script>
+</html>
