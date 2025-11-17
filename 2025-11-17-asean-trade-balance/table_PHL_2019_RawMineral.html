@@ -1,0 +1,580 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trade Data Table</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 10px; background-color: white; }
+        /* Style must be included in the separate table HTML file for self-containment */
+        #trade-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        #trade-table th, #trade-table td {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            text-align: right;
+        }
+        #trade-table th {
+            background-color: #f7f7f7;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+        #trade-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        #trade-table td:nth-child(1), #trade-table th:nth-child(1) {
+            text-align: left;
+        }
+        .positive { color: #1a9641; font-weight: bold; }
+        .negative { color: #d7191c; font-weight: bold; }
+        h3 { font-family: Arial, sans-serif; font-size: 1.2em; color: #333; margin-top: 5px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div id="data-table-container">
+        <h3>Trade Data (Million USD)</h3>
+        <table id="trade-table">
+            <thead>
+                <tr>
+                    <th>Partner</th>
+                    <th>Export (M$)</th>
+                    <th>Import (M$)</th>
+                    <th>Trade Balance (M$)</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+        <tr>
+            <td>Japan</td>
+            <td>364.40</td>
+            <td>186.28</td>
+            <td class="positive">178.12</td>
+        </tr>
+        
+        <tr>
+            <td>Canada</td>
+            <td>95.01</td>
+            <td>0.25</td>
+            <td class="positive">94.77</td>
+        </tr>
+        
+        <tr>
+            <td>HKG</td>
+            <td>50.70</td>
+            <td>3.66</td>
+            <td class="positive">47.05</td>
+        </tr>
+        
+        <tr>
+            <td>New Caledonia</td>
+            <td>3.25</td>
+            <td>0.00</td>
+            <td class="positive">3.25</td>
+        </tr>
+        
+        <tr>
+            <td>FSM</td>
+            <td>1.79</td>
+            <td>0.00</td>
+            <td class="positive">1.79</td>
+        </tr>
+        
+        <tr>
+            <td>Cambodia</td>
+            <td>0.24</td>
+            <td>0.00</td>
+            <td class="positive">0.24</td>
+        </tr>
+        
+        <tr>
+            <td>Bangladesh</td>
+            <td>0.19</td>
+            <td>0.00</td>
+            <td class="positive">0.19</td>
+        </tr>
+        
+        <tr>
+            <td>BHR</td>
+            <td>0.03</td>
+            <td>0.00</td>
+            <td class="positive">0.03</td>
+        </tr>
+        
+        <tr>
+            <td>Myanmar</td>
+            <td>0.01</td>
+            <td>0.00</td>
+            <td class="positive">0.01</td>
+        </tr>
+        
+        <tr>
+            <td>GUM</td>
+            <td>0.01</td>
+            <td>0.00</td>
+            <td class="positive">0.01</td>
+        </tr>
+        
+        <tr>
+            <td>Guatemala</td>
+            <td>0.01</td>
+            <td>0.00</td>
+            <td class="positive">0.01</td>
+        </tr>
+        
+        <tr>
+            <td>MAC</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="positive">0.00</td>
+        </tr>
+        
+        <tr>
+            <td>Azerbaijan</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="positive">0.00</td>
+        </tr>
+        
+        <tr>
+            <td>PLW</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="positive">0.00</td>
+        </tr>
+        
+        <tr>
+            <td>MUS</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="positive">0.00</td>
+        </tr>
+        
+        <tr>
+            <td>MDV</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="positive">0.00</td>
+        </tr>
+        
+        <tr>
+            <td>NOR</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="negative">-0.00</td>
+        </tr>
+        
+        <tr>
+            <td>Luxembourg</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="negative">-0.00</td>
+        </tr>
+        
+        <tr>
+            <td>Georgia</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td class="negative">-0.00</td>
+        </tr>
+        
+        <tr>
+            <td>Slovenia</td>
+            <td>0.00</td>
+            <td>0.01</td>
+            <td class="negative">-0.01</td>
+        </tr>
+        
+        <tr>
+            <td>Ireland</td>
+            <td>0.00</td>
+            <td>0.01</td>
+            <td class="negative">-0.01</td>
+        </tr>
+        
+        <tr>
+            <td>Denmark</td>
+            <td>0.01</td>
+            <td>0.02</td>
+            <td class="negative">-0.01</td>
+        </tr>
+        
+        <tr>
+            <td>Austria</td>
+            <td>0.00</td>
+            <td>0.01</td>
+            <td class="negative">-0.01</td>
+        </tr>
+        
+        <tr>
+            <td>Czechia</td>
+            <td>0.00</td>
+            <td>0.02</td>
+            <td class="negative">-0.02</td>
+        </tr>
+        
+        <tr>
+            <td>Jordan</td>
+            <td>0.00</td>
+            <td>0.03</td>
+            <td class="negative">-0.03</td>
+        </tr>
+        
+        <tr>
+            <td>Ukraine</td>
+            <td>0.00</td>
+            <td>0.04</td>
+            <td class="negative">-0.04</td>
+        </tr>
+        
+        <tr>
+            <td>MLT</td>
+            <td>0.00</td>
+            <td>0.05</td>
+            <td class="negative">-0.05</td>
+        </tr>
+        
+        <tr>
+            <td>Croatia</td>
+            <td>0.00</td>
+            <td>0.05</td>
+            <td class="negative">-0.05</td>
+        </tr>
+        
+        <tr>
+            <td>Finland</td>
+            <td>0.00</td>
+            <td>0.06</td>
+            <td class="negative">-0.06</td>
+        </tr>
+        
+        <tr>
+            <td>Sweden</td>
+            <td>0.00</td>
+            <td>0.09</td>
+            <td class="negative">-0.09</td>
+        </tr>
+        
+        <tr>
+            <td>Israel</td>
+            <td>0.00</td>
+            <td>0.10</td>
+            <td class="negative">-0.10</td>
+        </tr>
+        
+        <tr>
+            <td>Mexico</td>
+            <td>0.00</td>
+            <td>0.14</td>
+            <td class="negative">-0.14</td>
+        </tr>
+        
+        <tr>
+            <td>Belgium</td>
+            <td>1.12</td>
+            <td>1.29</td>
+            <td class="negative">-0.17</td>
+        </tr>
+        
+        <tr>
+            <td>Morocco</td>
+            <td>0.00</td>
+            <td>0.18</td>
+            <td class="negative">-0.18</td>
+        </tr>
+        
+        <tr>
+            <td>Greece</td>
+            <td>0.00</td>
+            <td>0.23</td>
+            <td class="negative">-0.23</td>
+        </tr>
+        
+        <tr>
+            <td>Egypt</td>
+            <td>0.00</td>
+            <td>0.28</td>
+            <td class="negative">-0.28</td>
+        </tr>
+        
+        <tr>
+            <td>Cyprus</td>
+            <td>0.00</td>
+            <td>0.31</td>
+            <td class="negative">-0.31</td>
+        </tr>
+        
+        <tr>
+            <td>Lithuania</td>
+            <td>0.00</td>
+            <td>0.32</td>
+            <td class="negative">-0.32</td>
+        </tr>
+        
+        <tr>
+            <td>South Africa</td>
+            <td>0.07</td>
+            <td>0.42</td>
+            <td class="negative">-0.35</td>
+        </tr>
+        
+        <tr>
+            <td>Netherlands</td>
+            <td>0.01</td>
+            <td>0.40</td>
+            <td class="negative">-0.39</td>
+        </tr>
+        
+        <tr>
+            <td>Poland</td>
+            <td>0.01</td>
+            <td>0.48</td>
+            <td class="negative">-0.47</td>
+        </tr>
+        
+        <tr>
+            <td>Turkey</td>
+            <td>0.00</td>
+            <td>0.58</td>
+            <td class="negative">-0.58</td>
+        </tr>
+        
+        <tr>
+            <td>Spain</td>
+            <td>0.00</td>
+            <td>0.65</td>
+            <td class="negative">-0.65</td>
+        </tr>
+        
+        <tr>
+            <td>Italy</td>
+            <td>0.01</td>
+            <td>0.67</td>
+            <td class="negative">-0.65</td>
+        </tr>
+        
+        <tr>
+            <td>New Zealand</td>
+            <td>0.00</td>
+            <td>0.66</td>
+            <td class="negative">-0.66</td>
+        </tr>
+        
+        <tr>
+            <td>United Kingdom</td>
+            <td>0.01</td>
+            <td>0.72</td>
+            <td class="negative">-0.71</td>
+        </tr>
+        
+        <tr>
+            <td>FRA</td>
+            <td>0.03</td>
+            <td>0.94</td>
+            <td class="negative">-0.91</td>
+        </tr>
+        
+        <tr>
+            <td>Iran</td>
+            <td>0.00</td>
+            <td>0.92</td>
+            <td class="negative">-0.92</td>
+        </tr>
+        
+        <tr>
+            <td>Switzerland</td>
+            <td>0.00</td>
+            <td>0.96</td>
+            <td class="negative">-0.96</td>
+        </tr>
+        
+        <tr>
+            <td>Papua New Guinea</td>
+            <td>0.16</td>
+            <td>2.13</td>
+            <td class="negative">-1.97</td>
+        </tr>
+        
+        <tr>
+            <td>Iraq</td>
+            <td>0.00</td>
+            <td>2.04</td>
+            <td class="negative">-2.04</td>
+        </tr>
+        
+        <tr>
+            <td>Germany</td>
+            <td>0.11</td>
+            <td>2.69</td>
+            <td class="negative">-2.58</td>
+        </tr>
+        
+        <tr>
+            <td>Sri Lanka</td>
+            <td>0.02</td>
+            <td>9.45</td>
+            <td class="negative">-9.43</td>
+        </tr>
+        
+        <tr>
+            <td>Pakistan</td>
+            <td>0.00</td>
+            <td>14.00</td>
+            <td class="negative">-13.99</td>
+        </tr>
+        
+        <tr>
+            <td>Peru</td>
+            <td>0.00</td>
+            <td>20.16</td>
+            <td class="negative">-20.16</td>
+        </tr>
+        
+        <tr>
+            <td>OAS</td>
+            <td>40.63</td>
+            <td>90.58</td>
+            <td class="negative">-49.95</td>
+        </tr>
+        
+        <tr>
+            <td>Qatar</td>
+            <td>0.00</td>
+            <td>52.82</td>
+            <td class="negative">-52.82</td>
+        </tr>
+        
+        <tr>
+            <td>Nigeria</td>
+            <td>0.00</td>
+            <td>59.24</td>
+            <td class="negative">-59.24</td>
+        </tr>
+        
+        <tr>
+            <td>Oman</td>
+            <td>0.00</td>
+            <td>62.16</td>
+            <td class="negative">-62.16</td>
+        </tr>
+        
+        <tr>
+            <td>Brunei</td>
+            <td>0.01</td>
+            <td>105.96</td>
+            <td class="negative">-105.94</td>
+        </tr>
+        
+        <tr>
+            <td>Thailand</td>
+            <td>83.07</td>
+            <td>193.65</td>
+            <td class="negative">-110.58</td>
+        </tr>
+        
+        <tr>
+            <td>United States of America</td>
+            <td>4.22</td>
+            <td>116.72</td>
+            <td class="negative">-112.50</td>
+        </tr>
+        
+        <tr>
+            <td>Russia</td>
+            <td>0.00</td>
+            <td>138.39</td>
+            <td class="negative">-138.39</td>
+        </tr>
+        
+        <tr>
+            <td>Australia</td>
+            <td>0.37</td>
+            <td>230.18</td>
+            <td class="negative">-229.81</td>
+        </tr>
+        
+        <tr>
+            <td>India</td>
+            <td>30.12</td>
+            <td>324.06</td>
+            <td class="negative">-293.95</td>
+        </tr>
+        
+        <tr>
+            <td>Vietnam</td>
+            <td>17.45</td>
+            <td>475.60</td>
+            <td class="negative">-458.14</td>
+        </tr>
+        
+        <tr>
+            <td>Brazil</td>
+            <td>0.00</td>
+            <td>528.41</td>
+            <td class="negative">-528.41</td>
+        </tr>
+        
+        <tr>
+            <td>Kuwait</td>
+            <td>0.00</td>
+            <td>790.46</td>
+            <td class="negative">-790.46</td>
+        </tr>
+        
+        <tr>
+            <td>SGP</td>
+            <td>214.73</td>
+            <td>1,031.02</td>
+            <td class="negative">-816.30</td>
+        </tr>
+        
+        <tr>
+            <td>Malaysia</td>
+            <td>101.15</td>
+            <td>924.96</td>
+            <td class="negative">-823.81</td>
+        </tr>
+        
+        <tr>
+            <td>Saudi Arabia</td>
+            <td>0.00</td>
+            <td>978.61</td>
+            <td class="negative">-978.61</td>
+        </tr>
+        
+        <tr>
+            <td>United Arab Emirates</td>
+            <td>0.00</td>
+            <td>1,146.03</td>
+            <td class="negative">-1,146.03</td>
+        </tr>
+        
+        <tr>
+            <td>Indonesia</td>
+            <td>7.23</td>
+            <td>1,931.18</td>
+            <td class="negative">-1,923.95</td>
+        </tr>
+        
+        <tr>
+            <td>South Korea</td>
+            <td>125.84</td>
+            <td>2,327.25</td>
+            <td class="negative">-2,201.41</td>
+        </tr>
+        
+        <tr>
+            <td>China</td>
+            <td>1,334.78</td>
+            <td>3,663.13</td>
+            <td class="negative">-2,328.35</td>
+        </tr>
+        
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

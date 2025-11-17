@@ -1206,12 +1206,6 @@
         "TradeBalance": 85.4016
     },
     {
-        "PartnerName": "Thailand",
-        "Export": 0.0,
-        "Import": 0.0,
-        "TradeBalance": 0.0
-    },
-    {
         "PartnerName": "Tajikistan",
         "Export": 1.5746,
         "Import": 0.0085,
@@ -2596,12 +2590,6 @@
         "Export": 174.0355,
         "Import": 3.2322,
         "TradeBalance": 170.80329999999998
-    },
-    {
-        "PartnerName": "Thailand",
-        "Export": 0.0,
-        "Import": 0.0,
-        "TradeBalance": 0.0
     },
     {
         "PartnerName": "Tajikistan",
