@@ -32,7 +32,24 @@
 </head>
 <body>
     <div id="data-table-container">
-        <h3>Trade Data (Million USD)</h3>
+        <h3 style="display:flex; align-items:center; gap:10px;">
+            Trade Data (Million USD)
+
+            <a id="json-download"
+               href="data_LAO_2017_RawMineral.json"
+               download
+               title="Download JSON"
+               style="text-decoration:none; cursor:pointer; font-size:20px; display:inline-flex; align-items:center;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round">
+                     <path d="M12 3v14"></path>
+                     <polyline points="5 12 12 19 19 12"></polyline>
+                     <rect x="4" y="19" width="16" height="2"></rect>
+                </svg>
+            </a>
+        </h3>
+
         <h4>Laos — 2017 — Raw Minerals</h4>
 
         <table id="trade-table">
