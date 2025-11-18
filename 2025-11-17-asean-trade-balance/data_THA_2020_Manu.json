@@ -1,0 +1,1382 @@
+[
+    {
+        "PartnerName": "ABW",
+        "Export": 0.9594,
+        "Import": 0.824,
+        "TradeBalance": 0.1354
+    },
+    {
+        "PartnerName": "Afghanistan",
+        "Export": 13.854,
+        "Import": 0.1567,
+        "TradeBalance": 13.6973
+    },
+    {
+        "PartnerName": "Angola",
+        "Export": 10.5222,
+        "Import": 6.9035,
+        "TradeBalance": 3.6187
+    },
+    {
+        "PartnerName": "AIA",
+        "Export": 0.439,
+        "Import": 0.0037,
+        "TradeBalance": 0.4353
+    },
+    {
+        "PartnerName": "Albania",
+        "Export": 5.1644,
+        "Import": 1.1229,
+        "TradeBalance": 4.0415
+    },
+    {
+        "PartnerName": "AND",
+        "Export": 0.2001,
+        "Import": 0.0652,
+        "TradeBalance": 0.1349
+    },
+    {
+        "PartnerName": "United Arab Emirates",
+        "Export": 1905.4566,
+        "Import": 419.4244,
+        "TradeBalance": 1486.0322
+    },
+    {
+        "PartnerName": "Argentina",
+        "Export": 846.8471,
+        "Import": 152.8798,
+        "TradeBalance": 693.9673
+    },
+    {
+        "PartnerName": "Armenia",
+        "Export": 6.1889,
+        "Import": 0.6399,
+        "TradeBalance": 5.549
+    },
+    {
+        "PartnerName": "ASM",
+        "Export": 0.7224,
+        "Import": 0.0076,
+        "TradeBalance": 0.7148
+    },
+    {
+        "PartnerName": "Antarctica",
+        "Export": 0.0652,
+        "Import": 0.0165,
+        "TradeBalance": 0.0487
+    },
+    {
+        "PartnerName": "ATG",
+        "Export": 1.7501,
+        "Import": 0.1723,
+        "TradeBalance": 1.5778
+    },
+    {
+        "PartnerName": "Australia",
+        "Export": 8782.1428,
+        "Import": 1106.5159,
+        "TradeBalance": 7675.6269
+    },
+    {
+        "PartnerName": "Austria",
+        "Export": 221.2724,
+        "Import": 502.0704,
+        "TradeBalance": -280.798
+    },
+    {
+        "PartnerName": "Azerbaijan",
+        "Export": 8.1801,
+        "Import": 0.0187,
+        "TradeBalance": 8.1614
+    },
+    {
+        "PartnerName": "Burundi",
+        "Export": 2.241,
+        "Import": 0.0007,
+        "TradeBalance": 2.2403
+    },
+    {
+        "PartnerName": "Belgium",
+        "Export": 1361.7174,
+        "Import": 699.2252,
+        "TradeBalance": 662.4922
+    },
+    {
+        "PartnerName": "Benin",
+        "Export": 6.553,
+        "Import": 0.7949,
+        "TradeBalance": 5.7581
+    },
+    {
+        "PartnerName": "BES",
+        "Export": 0.0197,
+        "Import": 0.0,
+        "TradeBalance": 0.0197
+    },
+    {
+        "PartnerName": "Burkina Faso",
+        "Export": 10.2754,
+        "Import": 2.1628,
+        "TradeBalance": 8.1126
+    },
+    {
+        "PartnerName": "Bangladesh",
+        "Export": 559.7824,
+        "Import": 42.1511,
+        "TradeBalance": 517.6313
+    },
+    {
+        "PartnerName": "Bulgaria",
+        "Export": 59.1571,
+        "Import": 51.1476,
+        "TradeBalance": 8.0095
+    },
+    {
+        "PartnerName": "BHR",
+        "Export": 105.8212,
+        "Import": 139.6972,
+        "TradeBalance": -33.876
+    },
+    {
+        "PartnerName": "Bahamas",
+        "Export": 1.5982,
+        "Import": 6.8618,
+        "TradeBalance": -5.2636
+    },
+    {
+        "PartnerName": "Bosnia and Herz.",
+        "Export": 4.1475,
+        "Import": 2.6217,
+        "TradeBalance": 1.5258
+    },
+    {
+        "PartnerName": "BLM",
+        "Export": 0.0995,
+        "Import": 0.0002,
+        "TradeBalance": 0.0993
+    },
+    {
+        "PartnerName": "Belarus",
+        "Export": 4.2867,
+        "Import": 56.6153,
+        "TradeBalance": -52.3286
+    },
+    {
+        "PartnerName": "Belize",
+        "Export": 3.1488,
+        "Import": 1.6502,
+        "TradeBalance": 1.4986
+    },
+    {
+        "PartnerName": "BMU",
+        "Export": 1.4627,
+        "Import": 0.0044,
+        "TradeBalance": 1.4583
+    },
+    {
+        "PartnerName": "Bolivia",
+        "Export": 16.8824,
+        "Import": 0.2495,
+        "TradeBalance": 16.6329
+    },
+    {
+        "PartnerName": "Brazil",
+        "Export": 1317.6653,
+        "Import": 392.8276,
+        "TradeBalance": 924.8377
+    },
+    {
+        "PartnerName": "BRB",
+        "Export": 9.0969,
+        "Import": 1.845,
+        "TradeBalance": 7.2519
+    },
+    {
+        "PartnerName": "Brunei",
+        "Export": 47.4116,
+        "Import": 18.4352,
+        "TradeBalance": 28.9764
+    },
+    {
+        "PartnerName": "Bhutan",
+        "Export": 48.5722,
+        "Import": 0.0407,
+        "TradeBalance": 48.5315
+    },
+    {
+        "PartnerName": "BVT",
+        "Export": 0.0059,
+        "Import": 0.0003,
+        "TradeBalance": 0.0056
+    },
+    {
+        "PartnerName": "Botswana",
+        "Export": 1.0566,
+        "Import": 12.3788,
+        "TradeBalance": -11.3222
+    },
+    {
+        "PartnerName": "Central African Rep.",
+        "Export": 0.7791,
+        "Import": 0.1056,
+        "TradeBalance": 0.6735
+    },
+    {
+        "PartnerName": "Canada",
+        "Export": 974.5562,
+        "Import": 616.1938,
+        "TradeBalance": 358.3624
+    },
+    {
+        "PartnerName": "CCK",
+        "Export": 0.0,
+        "Import": 0.0236,
+        "TradeBalance": -0.0236
+    },
+    {
+        "PartnerName": "Switzerland",
+        "Export": 7519.3715,
+        "Import": 2218.3429,
+        "TradeBalance": 5301.0286
+    },
+    {
+        "PartnerName": "Chile",
+        "Export": 283.453,
+        "Import": 262.4519,
+        "TradeBalance": 21.0011
+    },
+    {
+        "PartnerName": "China",
+        "Export": 22520.1231,
+        "Import": 47309.2776,
+        "TradeBalance": -24789.1545
+    },
+    {
+        "PartnerName": "C\u00f4te d'Ivoire",
+        "Export": 42.8275,
+        "Import": 4.7901,
+        "TradeBalance": 38.0374
+    },
+    {
+        "PartnerName": "Cameroon",
+        "Export": 17.1576,
+        "Import": 3.1198,
+        "TradeBalance": 14.0378
+    },
+    {
+        "PartnerName": "Congo",
+        "Export": 10.0758,
+        "Import": 10.7021,
+        "TradeBalance": -0.6263
+    },
+    {
+        "PartnerName": "COK",
+        "Export": 1.0278,
+        "Import": 0.9388,
+        "TradeBalance": 0.089
+    },
+    {
+        "PartnerName": "Colombia",
+        "Export": 175.1303,
+        "Import": 43.4624,
+        "TradeBalance": 131.6679
+    },
+    {
+        "PartnerName": "COM",
+        "Export": 0.2459,
+        "Import": 0.0099,
+        "TradeBalance": 0.236
+    },
+    {
+        "PartnerName": "CPV",
+        "Export": 0.2014,
+        "Import": 0.0545,
+        "TradeBalance": 0.1469
+    },
+    {
+        "PartnerName": "Costa Rica",
+        "Export": 63.4236,
+        "Import": 42.6612,
+        "TradeBalance": 20.7624
+    },
+    {
+        "PartnerName": "Cuba",
+        "Export": 3.6662,
+        "Import": 2.55,
+        "TradeBalance": 1.1162
+    },
+    {
+        "PartnerName": "CUW",
+        "Export": 3.5717,
+        "Import": 1.6808,
+        "TradeBalance": 1.8909
+    },
+    {
+        "PartnerName": "CXR",
+        "Export": 0.0,
+        "Import": 0.008,
+        "TradeBalance": -0.008
+    },
+    {
+        "PartnerName": "CYM",
+        "Export": 2.5242,
+        "Import": 0.0014,
+        "TradeBalance": 2.5228
+    },
+    {
+        "PartnerName": "Cyprus",
+        "Export": 14.5464,
+        "Import": 8.4773,
+        "TradeBalance": 6.0691
+    },
+    {
+        "PartnerName": "Czechia",
+        "Export": 612.1444,
+        "Import": 226.5323,
+        "TradeBalance": 385.6121
+    },
+    {
+        "PartnerName": "Germany",
+        "Export": 3784.7785,
+        "Import": 4992.5561,
+        "TradeBalance": -1207.7776
+    },
+    {
+        "PartnerName": "Djibouti",
+        "Export": 23.7372,
+        "Import": 0.005,
+        "TradeBalance": 23.7322
+    },
+    {
+        "PartnerName": "DMA",
+        "Export": 1.5887,
+        "Import": 0.1099,
+        "TradeBalance": 1.4788
+    },
+    {
+        "PartnerName": "Denmark",
+        "Export": 323.5286,
+        "Import": 347.2699,
+        "TradeBalance": -23.7413
+    },
+    {
+        "PartnerName": "Dominican Rep.",
+        "Export": 45.1652,
+        "Import": 28.2501,
+        "TradeBalance": 16.9151
+    },
+    {
+        "PartnerName": "Algeria",
+        "Export": 28.6042,
+        "Import": 0.1262,
+        "TradeBalance": 28.478
+    },
+    {
+        "PartnerName": "Ecuador",
+        "Export": 123.8943,
+        "Import": 5.2137,
+        "TradeBalance": 118.6806
+    },
+    {
+        "PartnerName": "Egypt",
+        "Export": 692.9429,
+        "Import": 10.447,
+        "TradeBalance": 682.4959
+    },
+    {
+        "PartnerName": "Eritrea",
+        "Export": 1.5251,
+        "Import": 0.0052,
+        "TradeBalance": 1.5199
+    },
+    {
+        "PartnerName": "W. Sahara",
+        "Export": 0.0028,
+        "Import": 0.0044,
+        "TradeBalance": -0.0016
+    },
+    {
+        "PartnerName": "Spain",
+        "Export": 697.0723,
+        "Import": 554.4856,
+        "TradeBalance": 142.5867
+    },
+    {
+        "PartnerName": "Estonia",
+        "Export": 32.0472,
+        "Import": 22.4784,
+        "TradeBalance": 9.5688
+    },
+    {
+        "PartnerName": "Ethiopia",
+        "Export": 47.6752,
+        "Import": 2.1873,
+        "TradeBalance": 45.4879
+    },
+    {
+        "PartnerName": "Finland",
+        "Export": 134.3047,
+        "Import": 271.4371,
+        "TradeBalance": -137.1324
+    },
+    {
+        "PartnerName": "Fiji",
+        "Export": 28.4613,
+        "Import": 0.1336,
+        "TradeBalance": 28.3277
+    },
+    {
+        "PartnerName": "Falkland Is.",
+        "Export": 0.0,
+        "Import": 0.0011,
+        "TradeBalance": -0.0011
+    },
+    {
+        "PartnerName": "FRA",
+        "Export": 1397.7554,
+        "Import": 2002.8496,
+        "TradeBalance": -605.0942
+    },
+    {
+        "PartnerName": "FRO",
+        "Export": 0.9119,
+        "Import": 0.0003,
+        "TradeBalance": 0.9116
+    },
+    {
+        "PartnerName": "FSM",
+        "Export": 0.2214,
+        "Import": 0.001,
+        "TradeBalance": 0.2204
+    },
+    {
+        "PartnerName": "Gabon",
+        "Export": 7.026,
+        "Import": 0.2834,
+        "TradeBalance": 6.7426
+    },
+    {
+        "PartnerName": "United Kingdom",
+        "Export": 2181.2774,
+        "Import": 1592.7604,
+        "TradeBalance": 588.517
+    },
+    {
+        "PartnerName": "Georgia",
+        "Export": 26.6421,
+        "Import": 1.9953,
+        "TradeBalance": 24.6468
+    },
+    {
+        "PartnerName": "Ghana",
+        "Export": 45.516,
+        "Import": 0.5447,
+        "TradeBalance": 44.9713
+    },
+    {
+        "PartnerName": "GIB",
+        "Export": 0.0483,
+        "Import": 0.0005,
+        "TradeBalance": 0.0478
+    },
+    {
+        "PartnerName": "Guinea",
+        "Export": 9.3554,
+        "Import": 0.3155,
+        "TradeBalance": 9.0399
+    },
+    {
+        "PartnerName": "Gambia",
+        "Export": 7.1174,
+        "Import": 0.0293,
+        "TradeBalance": 7.0881
+    },
+    {
+        "PartnerName": "Guinea-Bissau",
+        "Export": 0.2641,
+        "Import": 0.0004,
+        "TradeBalance": 0.2637
+    },
+    {
+        "PartnerName": "Eq. Guinea",
+        "Export": 0.3038,
+        "Import": 0.2363,
+        "TradeBalance": 0.0675
+    },
+    {
+        "PartnerName": "Greece",
+        "Export": 106.5456,
+        "Import": 44.5207,
+        "TradeBalance": 62.0249
+    },
+    {
+        "PartnerName": "GRD",
+        "Export": 1.9636,
+        "Import": 0.0518,
+        "TradeBalance": 1.9118
+    },
+    {
+        "PartnerName": "Greenland",
+        "Export": 0.1054,
+        "Import": 1.7398,
+        "TradeBalance": -1.6344
+    },
+    {
+        "PartnerName": "Guatemala",
+        "Export": 65.7294,
+        "Import": 3.8813,
+        "TradeBalance": 61.8481
+    },
+    {
+        "PartnerName": "GUM",
+        "Export": 3.6452,
+        "Import": 0.0705,
+        "TradeBalance": 3.5747
+    },
+    {
+        "PartnerName": "Guyana",
+        "Export": 5.7552,
+        "Import": 1.731,
+        "TradeBalance": 4.0242
+    },
+    {
+        "PartnerName": "HKG",
+        "Export": 10139.9459,
+        "Import": 1996.3609,
+        "TradeBalance": 8143.585
+    },
+    {
+        "PartnerName": "Honduras",
+        "Export": 43.2381,
+        "Import": 3.0966,
+        "TradeBalance": 40.1415
+    },
+    {
+        "PartnerName": "Croatia",
+        "Export": 14.1359,
+        "Import": 6.8387,
+        "TradeBalance": 7.2972
+    },
+    {
+        "PartnerName": "Haiti",
+        "Export": 3.2435,
+        "Import": 8.6795,
+        "TradeBalance": -5.436
+    },
+    {
+        "PartnerName": "Hungary",
+        "Export": 549.6814,
+        "Import": 151.5488,
+        "TradeBalance": 398.1326
+    },
+    {
+        "PartnerName": "Indonesia",
+        "Export": 6391.4523,
+        "Import": 3345.026,
+        "TradeBalance": 3046.4263
+    },
+    {
+        "PartnerName": "India",
+        "Export": 5055.001,
+        "Import": 3711.9876,
+        "TradeBalance": 1343.0134
+    },
+    {
+        "PartnerName": "Ireland",
+        "Export": 430.9357,
+        "Import": 275.9359,
+        "TradeBalance": 154.9998
+    },
+    {
+        "PartnerName": "Iran",
+        "Export": 105.3829,
+        "Import": 69.1731,
+        "TradeBalance": 36.2098
+    },
+    {
+        "PartnerName": "Iraq",
+        "Export": 194.6768,
+        "Import": 0.048,
+        "TradeBalance": 194.6288
+    },
+    {
+        "PartnerName": "Iceland",
+        "Export": 2.5827,
+        "Import": 1.1568,
+        "TradeBalance": 1.4259
+    },
+    {
+        "PartnerName": "Israel",
+        "Export": 433.164,
+        "Import": 407.2198,
+        "TradeBalance": 25.9442
+    },
+    {
+        "PartnerName": "Italy",
+        "Export": 1142.472,
+        "Import": 2060.8649,
+        "TradeBalance": -918.3929
+    },
+    {
+        "PartnerName": "Jamaica",
+        "Export": 34.4651,
+        "Import": 4.5788,
+        "TradeBalance": 29.8863
+    },
+    {
+        "PartnerName": "Jordan",
+        "Export": 86.3324,
+        "Import": 11.5121,
+        "TradeBalance": 74.8203
+    },
+    {
+        "PartnerName": "Japan",
+        "Export": 18496.502,
+        "Import": 27165.6058,
+        "TradeBalance": -8669.1038
+    },
+    {
+        "PartnerName": "Kazakhstan",
+        "Export": 28.0923,
+        "Import": 13.2341,
+        "TradeBalance": 14.8582
+    },
+    {
+        "PartnerName": "Kenya",
+        "Export": 98.8589,
+        "Import": 12.6456,
+        "TradeBalance": 86.2133
+    },
+    {
+        "PartnerName": "Kyrgyzstan",
+        "Export": 0.7022,
+        "Import": 0.7816,
+        "TradeBalance": -0.0794
+    },
+    {
+        "PartnerName": "Cambodia",
+        "Export": 3032.1676,
+        "Import": 796.6242,
+        "TradeBalance": 2235.5434
+    },
+    {
+        "PartnerName": "KIR",
+        "Export": 0.8642,
+        "Import": 0.0001,
+        "TradeBalance": 0.8641
+    },
+    {
+        "PartnerName": "KNA",
+        "Export": 1.436,
+        "Import": 0.0129,
+        "TradeBalance": 1.4231
+    },
+    {
+        "PartnerName": "South Korea",
+        "Export": 3398.2467,
+        "Import": 6993.7923,
+        "TradeBalance": -3595.5456
+    },
+    {
+        "PartnerName": "Kuwait",
+        "Export": 221.7756,
+        "Import": 21.896,
+        "TradeBalance": 199.8796
+    },
+    {
+        "PartnerName": "Laos",
+        "Export": 1887.0292,
+        "Import": 886.5136,
+        "TradeBalance": 1000.5156
+    },
+    {
+        "PartnerName": "Lebanon",
+        "Export": 34.7909,
+        "Import": 2.2332,
+        "TradeBalance": 32.5577
+    },
+    {
+        "PartnerName": "Liberia",
+        "Export": 5.2405,
+        "Import": 2.1411,
+        "TradeBalance": 3.0994
+    },
+    {
+        "PartnerName": "Libya",
+        "Export": 59.2818,
+        "Import": 0.1762,
+        "TradeBalance": 59.1056
+    },
+    {
+        "PartnerName": "LCA",
+        "Export": 2.9405,
+        "Import": 0.0907,
+        "TradeBalance": 2.8498
+    },
+    {
+        "PartnerName": "Sri Lanka",
+        "Export": 224.009,
+        "Import": 45.759,
+        "TradeBalance": 178.25
+    },
+    {
+        "PartnerName": "Lesotho",
+        "Export": 1.2412,
+        "Import": 0.1226,
+        "TradeBalance": 1.1186
+    },
+    {
+        "PartnerName": "Lithuania",
+        "Export": 24.5151,
+        "Import": 15.686,
+        "TradeBalance": 8.8291
+    },
+    {
+        "PartnerName": "Luxembourg",
+        "Export": 2.5924,
+        "Import": 14.7794,
+        "TradeBalance": -12.187
+    },
+    {
+        "PartnerName": "Latvia",
+        "Export": 43.1109,
+        "Import": 9.7736,
+        "TradeBalance": 33.3373
+    },
+    {
+        "PartnerName": "MAC",
+        "Export": 27.4587,
+        "Import": 8.4787,
+        "TradeBalance": 18.98
+    },
+    {
+        "PartnerName": "Morocco",
+        "Export": 73.7598,
+        "Import": 22.6633,
+        "TradeBalance": 51.0965
+    },
+    {
+        "PartnerName": "Moldova",
+        "Export": 0.5827,
+        "Import": 0.8331,
+        "TradeBalance": -0.2504
+    },
+    {
+        "PartnerName": "Madagascar",
+        "Export": 21.8622,
+        "Import": 11.095,
+        "TradeBalance": 10.7672
+    },
+    {
+        "PartnerName": "MDV",
+        "Export": 44.7526,
+        "Import": 0.0139,
+        "TradeBalance": 44.7387
+    },
+    {
+        "PartnerName": "Mexico",
+        "Export": 2347.8868,
+        "Import": 701.7729,
+        "TradeBalance": 1646.1139
+    },
+    {
+        "PartnerName": "MHL",
+        "Export": 0.7443,
+        "Import": 1.4108,
+        "TradeBalance": -0.6665
+    },
+    {
+        "PartnerName": "North Macedonia",
+        "Export": 2.5835,
+        "Import": 1.6165,
+        "TradeBalance": 0.967
+    },
+    {
+        "PartnerName": "Mali",
+        "Export": 17.9308,
+        "Import": 4.4008,
+        "TradeBalance": 13.53
+    },
+    {
+        "PartnerName": "MLT",
+        "Export": 18.6074,
+        "Import": 21.8416,
+        "TradeBalance": -3.2342
+    },
+    {
+        "PartnerName": "Myanmar",
+        "Export": 2277.3518,
+        "Import": 344.524,
+        "TradeBalance": 1932.8278
+    },
+    {
+        "PartnerName": "Mongolia",
+        "Export": 7.7829,
+        "Import": 12.0767,
+        "TradeBalance": -4.2938
+    },
+    {
+        "PartnerName": "MNP",
+        "Export": 1.2114,
+        "Import": 0.0008,
+        "TradeBalance": 1.2106
+    },
+    {
+        "PartnerName": "MNT",
+        "Export": 0.7537,
+        "Import": 0.1844,
+        "TradeBalance": 0.5693
+    },
+    {
+        "PartnerName": "Mozambique",
+        "Export": 31.7086,
+        "Import": 20.3665,
+        "TradeBalance": 11.3421
+    },
+    {
+        "PartnerName": "Mauritania",
+        "Export": 4.5009,
+        "Import": 0.6647,
+        "TradeBalance": 3.8362
+    },
+    {
+        "PartnerName": "MSR",
+        "Export": 0.0676,
+        "Import": 1.6837,
+        "TradeBalance": -1.6161
+    },
+    {
+        "PartnerName": "MUS",
+        "Export": 41.4835,
+        "Import": 1.1586,
+        "TradeBalance": 40.3249
+    },
+    {
+        "PartnerName": "Malawi",
+        "Export": 4.7286,
+        "Import": 0.0245,
+        "TradeBalance": 4.7041
+    },
+    {
+        "PartnerName": "Malaysia",
+        "Export": 6902.9303,
+        "Import": 8063.5201,
+        "TradeBalance": -1160.5898
+    },
+    {
+        "PartnerName": "Namibia",
+        "Export": 1.2126,
+        "Import": 13.2861,
+        "TradeBalance": -12.0735
+    },
+    {
+        "PartnerName": "New Caledonia",
+        "Export": 32.2492,
+        "Import": 0.7968,
+        "TradeBalance": 31.4524
+    },
+    {
+        "PartnerName": "Niger",
+        "Export": 1.0613,
+        "Import": 0.1601,
+        "TradeBalance": 0.9012
+    },
+    {
+        "PartnerName": "Nigeria",
+        "Export": 159.0751,
+        "Import": 3.2222,
+        "TradeBalance": 155.8529
+    },
+    {
+        "PartnerName": "Nicaragua",
+        "Export": 12.7025,
+        "Import": 2.5346,
+        "TradeBalance": 10.1679
+    },
+    {
+        "PartnerName": "NIU",
+        "Export": 0.0,
+        "Import": 0.0002,
+        "TradeBalance": -0.0002
+    },
+    {
+        "PartnerName": "Netherlands",
+        "Export": 3739.0025,
+        "Import": 704.0605,
+        "TradeBalance": 3034.942
+    },
+    {
+        "PartnerName": "NOR",
+        "Export": 144.7117,
+        "Import": 192.5974,
+        "TradeBalance": -47.8857
+    },
+    {
+        "PartnerName": "Nepal",
+        "Export": 34.5086,
+        "Import": 0.5052,
+        "TradeBalance": 34.0034
+    },
+    {
+        "PartnerName": "NRU",
+        "Export": 0.6111,
+        "Import": 0.0014,
+        "TradeBalance": 0.6097
+    },
+    {
+        "PartnerName": "New Zealand",
+        "Export": 1075.6289,
+        "Import": 173.9111,
+        "TradeBalance": 901.7178
+    },
+    {
+        "PartnerName": "OAS",
+        "Export": 3153.9004,
+        "Import": 7900.7199,
+        "TradeBalance": -4746.8195
+    },
+    {
+        "PartnerName": "Oman",
+        "Export": 341.9984,
+        "Import": 466.4577,
+        "TradeBalance": -124.4593
+    },
+    {
+        "PartnerName": "Pakistan",
+        "Export": 875.6968,
+        "Import": 31.3322,
+        "TradeBalance": 844.3646
+    },
+    {
+        "PartnerName": "Panama",
+        "Export": 68.1201,
+        "Import": 42.0192,
+        "TradeBalance": 26.1009
+    },
+    {
+        "PartnerName": "PCN",
+        "Export": 0.0,
+        "Import": 0.0684,
+        "TradeBalance": -0.0684
+    },
+    {
+        "PartnerName": "Peru",
+        "Export": 180.1158,
+        "Import": 44.7344,
+        "TradeBalance": 135.3814
+    },
+    {
+        "PartnerName": "Philippines",
+        "Export": 4284.4095,
+        "Import": 2703.8579,
+        "TradeBalance": 1580.5516
+    },
+    {
+        "PartnerName": "PLW",
+        "Export": 0.1044,
+        "Import": 0.0001,
+        "TradeBalance": 0.1043
+    },
+    {
+        "PartnerName": "Papua New Guinea",
+        "Export": 61.8611,
+        "Import": 0.368,
+        "TradeBalance": 61.4931
+    },
+    {
+        "PartnerName": "Poland",
+        "Export": 398.7838,
+        "Import": 309.489,
+        "TradeBalance": 89.2948
+    },
+    {
+        "PartnerName": "North Korea",
+        "Export": 1.1799,
+        "Import": 0.0389,
+        "TradeBalance": 1.141
+    },
+    {
+        "PartnerName": "Portugal",
+        "Export": 153.3064,
+        "Import": 72.3554,
+        "TradeBalance": 80.951
+    },
+    {
+        "PartnerName": "Paraguay",
+        "Export": 18.5165,
+        "Import": 11.9288,
+        "TradeBalance": 6.5877
+    },
+    {
+        "PartnerName": "Palestine",
+        "Export": 0.6407,
+        "Import": 0.0,
+        "TradeBalance": 0.6407
+    },
+    {
+        "PartnerName": "PYF",
+        "Export": 16.2901,
+        "Import": 0.3214,
+        "TradeBalance": 15.9687
+    },
+    {
+        "PartnerName": "Qatar",
+        "Export": 284.8237,
+        "Import": 353.9983,
+        "TradeBalance": -69.1746
+    },
+    {
+        "PartnerName": "ROM",
+        "Export": 153.0753,
+        "Import": 99.311,
+        "TradeBalance": 53.7643
+    },
+    {
+        "PartnerName": "Russia",
+        "Export": 580.2347,
+        "Import": 528.4943,
+        "TradeBalance": 51.7404
+    },
+    {
+        "PartnerName": "Rwanda",
+        "Export": 3.467,
+        "Import": 0.0479,
+        "TradeBalance": 3.4191
+    },
+    {
+        "PartnerName": "Saudi Arabia",
+        "Export": 1461.2215,
+        "Import": 825.1789,
+        "TradeBalance": 636.0426
+    },
+    {
+        "PartnerName": "Senegal",
+        "Export": 59.1585,
+        "Import": 0.1456,
+        "TradeBalance": 59.0129
+    },
+    {
+        "PartnerName": "SER",
+        "Export": 8.3431,
+        "Import": 10.6933,
+        "TradeBalance": -2.3502
+    },
+    {
+        "PartnerName": "SGP",
+        "Export": 7984.554,
+        "Import": 6123.0648,
+        "TradeBalance": 1861.4892
+    },
+    {
+        "PartnerName": "SGS",
+        "Export": 0.0,
+        "Import": 0.0002,
+        "TradeBalance": -0.0002
+    },
+    {
+        "PartnerName": "SHN",
+        "Export": 0.008,
+        "Import": 0.0092,
+        "TradeBalance": -0.0012
+    },
+    {
+        "PartnerName": "Solomon Is.",
+        "Export": 6.9326,
+        "Import": 0.004,
+        "TradeBalance": 6.9286
+    },
+    {
+        "PartnerName": "Sierra Leone",
+        "Export": 9.2936,
+        "Import": 0.3507,
+        "TradeBalance": 8.9429
+    },
+    {
+        "PartnerName": "El Salvador",
+        "Export": 29.5434,
+        "Import": 3.5241,
+        "TradeBalance": 26.0193
+    },
+    {
+        "PartnerName": "SMR",
+        "Export": 0.0114,
+        "Import": 0.2611,
+        "TradeBalance": -0.2497
+    },
+    {
+        "PartnerName": "Somalia",
+        "Export": 6.2315,
+        "Import": 0.0051,
+        "TradeBalance": 6.2264
+    },
+    {
+        "PartnerName": "SPM",
+        "Export": 0.0016,
+        "Import": 0.0,
+        "TradeBalance": 0.0016
+    },
+    {
+        "PartnerName": "S. Sudan",
+        "Export": 6.2249,
+        "Import": 0.0074,
+        "TradeBalance": 6.2175
+    },
+    {
+        "PartnerName": "STP",
+        "Export": 0.0257,
+        "Import": 0.0009,
+        "TradeBalance": 0.0248
+    },
+    {
+        "PartnerName": "SUD",
+        "Export": 48.4495,
+        "Import": 0.0036,
+        "TradeBalance": 48.4459
+    },
+    {
+        "PartnerName": "Suriname",
+        "Export": 9.97,
+        "Import": 1.5112,
+        "TradeBalance": 8.4588
+    },
+    {
+        "PartnerName": "Slovakia",
+        "Export": 109.6397,
+        "Import": 83.6238,
+        "TradeBalance": 26.0159
+    },
+    {
+        "PartnerName": "Slovenia",
+        "Export": 57.513,
+        "Import": 58.5278,
+        "TradeBalance": -1.0148
+    },
+    {
+        "PartnerName": "Sweden",
+        "Export": 270.0166,
+        "Import": 610.4947,
+        "TradeBalance": -340.4781
+    },
+    {
+        "PartnerName": "eSwatini",
+        "Export": 1.1017,
+        "Import": 4.6669,
+        "TradeBalance": -3.5652
+    },
+    {
+        "PartnerName": "SXM",
+        "Export": 0.9074,
+        "Import": 0.0009,
+        "TradeBalance": 0.9065
+    },
+    {
+        "PartnerName": "SYC",
+        "Export": 4.9627,
+        "Import": 0.8406,
+        "TradeBalance": 4.1221
+    },
+    {
+        "PartnerName": "Syria",
+        "Export": 26.758,
+        "Import": 0.0515,
+        "TradeBalance": 26.7065
+    },
+    {
+        "PartnerName": "TCA",
+        "Export": 0.2141,
+        "Import": 0.0124,
+        "TradeBalance": 0.2017
+    },
+    {
+        "PartnerName": "Chad",
+        "Export": 0.0165,
+        "Import": 0.3008,
+        "TradeBalance": -0.2843
+    },
+    {
+        "PartnerName": "Togo",
+        "Export": 40.6224,
+        "Import": 1.5878,
+        "TradeBalance": 39.0346
+    },
+    {
+        "PartnerName": "Tajikistan",
+        "Export": 1.4417,
+        "Import": 0.0085,
+        "TradeBalance": 1.4332
+    },
+    {
+        "PartnerName": "TKL",
+        "Export": 0.0,
+        "Import": 0.4136,
+        "TradeBalance": -0.4136
+    },
+    {
+        "PartnerName": "Turkmenistan",
+        "Export": 1.2145,
+        "Import": 0.0004,
+        "TradeBalance": 1.2141
+    },
+    {
+        "PartnerName": "TMP",
+        "Export": 2.987,
+        "Import": 0.0045,
+        "TradeBalance": 2.9825
+    },
+    {
+        "PartnerName": "TON",
+        "Export": 1.4507,
+        "Import": 0.0006,
+        "TradeBalance": 1.4501
+    },
+    {
+        "PartnerName": "Trinidad and Tobago",
+        "Export": 56.5391,
+        "Import": 13.4678,
+        "TradeBalance": 43.0713
+    },
+    {
+        "PartnerName": "Tunisia",
+        "Export": 73.5427,
+        "Import": 11.0357,
+        "TradeBalance": 62.507
+    },
+    {
+        "PartnerName": "Turkey",
+        "Export": 907.1313,
+        "Import": 205.0431,
+        "TradeBalance": 702.0882
+    },
+    {
+        "PartnerName": "TUV",
+        "Export": 0.0,
+        "Import": 0.007,
+        "TradeBalance": -0.007
+    },
+    {
+        "PartnerName": "Tanzania",
+        "Export": 82.6085,
+        "Import": 16.0071,
+        "TradeBalance": 66.6014
+    },
+    {
+        "PartnerName": "Uganda",
+        "Export": 18.1147,
+        "Import": 1.2922,
+        "TradeBalance": 16.8225
+    },
+    {
+        "PartnerName": "Ukraine",
+        "Export": 65.8647,
+        "Import": 35.3714,
+        "TradeBalance": 30.4933
+    },
+    {
+        "PartnerName": "UMI",
+        "Export": 0.0121,
+        "Import": 0.0349,
+        "TradeBalance": -0.0228
+    },
+    {
+        "PartnerName": "UNS",
+        "Export": 34.7574,
+        "Import": 0.0445,
+        "TradeBalance": 34.7129
+    },
+    {
+        "PartnerName": "Uruguay",
+        "Export": 27.2521,
+        "Import": 39.9843,
+        "TradeBalance": -12.7322
+    },
+    {
+        "PartnerName": "United States of America",
+        "Export": 30206.6458,
+        "Import": 11277.8051,
+        "TradeBalance": 18928.8407
+    },
+    {
+        "PartnerName": "Uzbekistan",
+        "Export": 84.8375,
+        "Import": 0.006,
+        "TradeBalance": 84.8315
+    },
+    {
+        "PartnerName": "VAT",
+        "Export": 0.0096,
+        "Import": 0.0193,
+        "TradeBalance": -0.0097
+    },
+    {
+        "PartnerName": "VCT",
+        "Export": 0.5959,
+        "Import": 0.0022,
+        "TradeBalance": 0.5937
+    },
+    {
+        "PartnerName": "Venezuela",
+        "Export": 6.7444,
+        "Import": 2.9023,
+        "TradeBalance": 3.8421
+    },
+    {
+        "PartnerName": "VGB",
+        "Export": 0.7158,
+        "Import": 0.5742,
+        "TradeBalance": 0.1416
+    },
+    {
+        "PartnerName": "Vietnam",
+        "Export": 8697.2398,
+        "Import": 4287.8671,
+        "TradeBalance": 4409.3727
+    },
+    {
+        "PartnerName": "Vanuatu",
+        "Export": 4.5948,
+        "Import": 0.0037,
+        "TradeBalance": 4.5911
+    },
+    {
+        "PartnerName": "WLF",
+        "Export": 0.5481,
+        "Import": 0.0,
+        "TradeBalance": 0.5481
+    },
+    {
+        "PartnerName": "WSM",
+        "Export": 6.8478,
+        "Import": 0.0263,
+        "TradeBalance": 6.8215
+    },
+    {
+        "PartnerName": "Yemen",
+        "Export": 81.461,
+        "Import": 1.4323,
+        "TradeBalance": 80.0287
+    },
+    {
+        "PartnerName": "South Africa",
+        "Export": 1712.2572,
+        "Import": 446.1669,
+        "TradeBalance": 1266.0903
+    },
+    {
+        "PartnerName": "ZAR",
+        "Export": 7.4832,
+        "Import": 88.0828,
+        "TradeBalance": -80.5996
+    },
+    {
+        "PartnerName": "Zambia",
+        "Export": 6.121,
+        "Import": 56.3157,
+        "TradeBalance": -50.1947
+    },
+    {
+        "PartnerName": "Zimbabwe",
+        "Export": 4.7914,
+        "Import": 1.0624,
+        "TradeBalance": 3.729
+    }
+]
